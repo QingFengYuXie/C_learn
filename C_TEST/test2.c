@@ -1,7 +1,13 @@
 #include <stdio.h>
- 
 
-#define swap(a, b)  do { int t = a; a = b; b = t; } while(0)// 交换两个变量的值
+//aaa14.58
+
+#define swap(a, b)  do  \
+                    {   \
+                        int t = a; \
+                        a = b;     \
+                        b = t;     \
+                    } while(0)// 交换两个变量的值
 
 
 // 函数声明
