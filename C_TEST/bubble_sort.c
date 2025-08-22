@@ -1,7 +1,6 @@
 #include <stdio.h>
-
-#bbbb
-
+//#bb15.03
+//bb15.03
 int num[]={6,3,5,2,4,1,9,8,7,0,11,10,15,14,13,12,19};
 
 #define swap(a,b) do{\
