@@ -8,6 +8,10 @@
                         a = b;     \
                         b = t;     \
                     } while(0)// 交换两个变量的值
+ 
+//bb15.03
+//bb15.03
+#define swap(a, b)  do { int t = a; a = b; b = t; } while(0)// 交换两个变量的值
 
 
 // 函数声明
